@@ -1,0 +1,47 @@
+body{
+    background-color:aquamarine;
+}
+
+.contenedor
+{position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);}
+
+.contenedor {
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 30px;
+    width: 350px; /* ancho del contenedor */
+    height: 200px; /* altura del contenedor */
+  }
+  
+
+#nombre {
+  margin-top: 30px;
+    opacity: 0.5;
+    border-color: black;
+  }
+  
+#apellido {
+    opacity: 0.5;
+    border-color: black;
+  }
+  .text{
+    color: black;
+  }
+  
+  .button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+        width: 60px;
+        height: 30px;
+        background-color: antiquewhite;
+  }
+  
+  div{
+    margin-left: 50px;
+  }
+  
